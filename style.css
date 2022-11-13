@@ -1,0 +1,72 @@
+body {
+	background: #ffd3ec;
+	color: #c491af;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+h1 {
+	color: #b56192;
+	font-size: 32px;
+	font-weight: Bolder;
+}
+h2 {
+	color: #b56192;
+	font-size: 24px;
+	font-weight: bold;
+}
+a {
+	text-decoration: underline;
+	color: #b56192;
+}
+a:hover {
+	color: #a35482;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+.card-white {
+	background: #ffe5f4;
+	padding: 60px;
+	margin: 20px 0px;
+	box-shadow:0px 10px 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: #b56192;
+	color: #ffe5f4;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #a35482;
+	color: #ffe5f4;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+.img-circle {
+	border-radius: 50%;
+}
+#logo {
+	width: 150px;
+}
